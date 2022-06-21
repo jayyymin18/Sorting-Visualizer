@@ -6,7 +6,7 @@ import {insertions} from '../sortingalgorithms/insertionsort';
 import {quickSort} from '../sortingalgorithms/quicksort';
 import {selectionSort} from '../sortingalgorithms/selectionsort';
 
-const NUMER_OF_BARS=170;
+const NUMER_OF_BARS=100;
 const DEFAULT_COLOR= 'pink';
 const COLOR_CHANGE= 'blue';
 const COLOR_DIFF='black';
@@ -238,10 +238,6 @@ const ANIMATION_SPEED=1;
     render() {
         const {array}= this.state;
         return (
-         
-            {'\n'}
-            {'\n'}
-            {'\n'}
             <div  className='bar-container'>
             { array.map((value,idx)=>(
               <div className='bar' key={idx} 
