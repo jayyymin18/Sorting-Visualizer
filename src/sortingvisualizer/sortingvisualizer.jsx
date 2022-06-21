@@ -5,7 +5,6 @@ import {bubbles} from '../sortingalgorithms/bubblesort';
 import {insertions} from '../sortingalgorithms/insertionsort';
 import {quickSort} from '../sortingalgorithms/quicksort';
 import {selectionSort} from '../sortingalgorithms/selectionsort';
-import 'bootstrap/dist/css/bootstrap.css';
 
 const NUMER_OF_BARS=170;
 const DEFAULT_COLOR= 'pink';
