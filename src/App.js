@@ -2,9 +2,10 @@ import React from 'react';
 import SortingVisualizer from './sortingvisualizer/sortingvisualizer'
 function App() {
   return (
-    <br>
-    <br>
-    <br>
+     <Text>{`
+      line 1
+      line 2
+     `}</Text>
     <SortingVisualizer />
   );
 }
