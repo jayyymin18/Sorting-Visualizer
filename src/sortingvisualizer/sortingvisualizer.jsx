@@ -239,6 +239,9 @@ const ANIMATION_SPEED=1;
         const {array}= this.state;
         return (
          
+            {'\n'}
+            {'\n'}
+            {'\n'}
             <div  className='bar-container'>
             { array.map((value,idx)=>(
               <div className='bar' key={idx} 
